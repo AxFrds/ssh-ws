@@ -10,6 +10,6 @@ systemctl restart fail2ban
 systemctl restart stunnel4
 systemctl restart ws-tls
 systemctl restart ws-nontls
-systemctl restart squid
+#systemctl restart squid
 systemctl restart vnstat
 printf " ${g}Done\n${n}"
