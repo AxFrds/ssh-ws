@@ -12,8 +12,8 @@ exp="$(chage -l $user | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$pass\n$pass\n"|passwd $user &> /dev/null
 systemctl restart ssh
 systemctl restart dropbear
-systemctl restart ws-tls
-systemctl restart ws-nontls
+systemctl restart ws-stunnel
+systemctl restart ws-dropbear
 ip=`curl -s ipv4.icanhazip.com`
 clear
 echo -e "${b}========== ${c}Informasi ${b}==========="
@@ -28,7 +28,7 @@ echo -e "${n}SSL OpenSSH  ${c}: ${g}444"
 echo -e "${n}SSL Dropbear ${c}: ${g}442"
 echo -e "${n}WS TLS       ${c}: ${g}443"
 echo -e "${n}WS Non-TLS   ${c}: ${g}80"
-echo -e "${n}Squid Proxy  ${c}: ${g}3128, 8080"
+#echo -e "${n}Squid Proxy  ${c}: ${g}3128, 8080"
 echo -e "${n}BadVPN Udpgw ${c}: ${g}7300, 7400, 7500"
 echo -e "${b}======== ${c}by OsingTunnel ${b}========"
 printf "${n}"
