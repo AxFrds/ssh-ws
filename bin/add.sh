@@ -12,8 +12,6 @@ exp="$(chage -l $user | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$pass\n$pass\n"|passwd $user &> /dev/null
 systemctl restart ssh
 systemctl restart dropbear
-systemctl restart ws-tls
-systemctl restart ws-nontls
 ip=`curl -s ipv4.icanhazip.com`
 clear
 echo -e "${b}========== ${c}Informasi ${b}==========="
