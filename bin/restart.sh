@@ -8,8 +8,8 @@ systemctl restart ssh
 systemctl restart dropbear
 systemctl restart fail2ban
 systemctl restart stunnel4
-systemctl restart ws-tls
-systemctl restart ws-nontls
+systemctl restart ws-stunnel
+systemctl restart ws-dropbear
 #systemctl restart squid
 systemctl restart vnstat
 printf " ${g}Done\n${n}"
