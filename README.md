@@ -27,3 +27,5 @@ wget -q https://axfrds.my.id/setup.sh && chmod +x setup.sh && ./setup.sh
 - speed = Check VPS speed
 - bw = Check VPS bandwidth
 - info = Show VPS specifications
+
+If there is a problem, Contact: https://t.me/AxFrds
