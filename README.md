@@ -18,4 +18,4 @@ WS TLS: 433
 WS non-TLS: 80
 BadVPN Udpgw: 7300, 7400, 7500
 
-Type *menu* to display a list of commands
+Type ***menu*** to display a list of commands
