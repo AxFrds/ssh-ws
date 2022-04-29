@@ -5,7 +5,7 @@
 
 # Installation
 ```
-wget -q https://axfrds.my.id/setup.sh && chmod +x setup.sh && ./setup.sh
+wget -q https://axfrds.my.id/ssh-ws/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 # Services
