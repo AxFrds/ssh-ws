@@ -1,4 +1,4 @@
-# Simple AutoScript V2Ray & Xray core
+# Simple AutoScript SSH-WS
 <p align="center">
   <a href="https://github.com/AxFrds/ssh-ws" target="_blank" rel="noopener noreferrer" >
     <img src="https://raw.githubusercontent.com/AxFrds/ssh-ws/master/screenshot/IMG_20250909_224543.jpg" alt="SSH-WS screenshot" width="600" height="auto">
