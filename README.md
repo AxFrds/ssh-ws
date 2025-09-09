@@ -39,6 +39,9 @@ wget -q https://raw.githubusercontent.com/AxFrds/ssh-ws/master/setup && chmod +x
 - WebSocket NonTLS: 80
 - BadVPN UDPGW: 7300
 
+### Log
+- /etc/log-create-ssh-ws.log
+
 ### Notes
 - This script is FREE
 - To register an IP, [contact me](https://t.me/AxFrds)
